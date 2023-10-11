@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor's Appointment</title>
+</head>
+<body>
+    <h1>Doctor's Appointment Form</h1>
+    <form >
+        <label>Name:</label>
+        <input type="text" required><br><br>
+        
+        <label>Email:</label>
+        <input type="email" required><br><br>
+        
+        <label>Phone:</label>
+        <input type="tel"required><br><br>
+        
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" required>
+        <label>Male</label><br>
+        <input type="radio" name="gender" >
+        <label>Female</label><br>
+        <input type="radio" name="gender">
+        <label>Other</label><br><br>
+        
+        <label>Blood Group:</label><br>
+        <input type="checkbox" name="bloodgroup[]" value="A">
+        <label>A</label><br>
+        <input type="checkbox" name="bloodgroup[]" value="B">
+        <label >B</label><br>
+        <input type="checkbox"  name="bloodgroup[]" value="AB">
+        <label for="ab">AB</label><br>
+        <input type="checkbox"  name="bloodgroup[]" value="O">
+        <label for="o">O</label><br><br>
+        
+        <label >Diseases Suffered Before:</label><br>
+        <select multiple>
+            <option>Flu</option>
+            <option>Cold</option>
+            <option>Covid 19</option>
+            <option>Diabetes</option>
+            <option>Hypertension</option>
+        </select><br><br>
+        
+        <label>Preferred Date:</label>
+        <input type="date" required><br><br>
+        
+        <label>Preferred Time:</label>
+        <input type="time"  required><br><br>
+        
+        <input type="submit" value="Submit Appointment">
+    </form>
+</body>
+</html>

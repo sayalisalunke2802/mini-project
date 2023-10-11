@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexboxes</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+.container{
+    background-color:burlywood;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    height: 100vh;
+    width: 350px;
+    flex-wrap: wrap;
+    align-items: flex-center;
+}
+.item {
+  font-size: 30px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  height: 50px;
+  width: 40px;
+  border:1px solid black;
+  border-radius: 15px;
+}
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;color: black;"> align-items: flex-center</h1>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+      </div>
+      
+</body>
+</html>

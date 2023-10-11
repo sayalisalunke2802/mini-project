@@ -1,0 +1,55 @@
+
+<html>
+<head>
+    <title>CSS Example</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Id selector */
+#main-title {
+    color: tomato;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Class selector */
+.content {
+    background-color: pink;
+    border: 1px solid brown;
+}
+
+/* Class selector with hover effect */
+.highlight-text {
+    color: hsl(24, 100%, 50%);
+    font-weight: bold;
+}
+
+.highlight-text:hover {
+    text-decoration: underline;
+}
+
+#box.highlight-box {
+    background-color: #cc0074;
+    color: #32b583;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+    </style>
+</head>
+<body>
+    <i><h1 id="main-title">Welcome to My Webpage</h1></i>
+
+    <div class="content">
+        <p>This is a sample webpage with some basic CSS properties.</p>
+         `<mark><p class="highlight-text">This text is highlighted.</p></mark>
+    </div>
+
+    <div id="box" class="highlight-box">
+        <p>This is a colored box.</p>
+    </div>
+</body>
+</html>

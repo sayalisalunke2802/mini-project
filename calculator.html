@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(240, 255, 252);
+        }
+        .title{
+            text-align: center;
+            color:black;
+            font-size:50px;
+        }
+        .container{
+            background-color: #5a5353;
+            height: 400px;
+            width: 350px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+            padding: 10px;
+            padding-top: 20px;
+        }
+
+
+        .cal-screen{
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 50px;
+            width: 280px;
+            border-radius: 5px;
+            border: none;
+            background-color: #9fe09f;
+
+        }
+        .brand{
+            text-align: right;
+            margin-right: 40px;
+            font-weight:bold;
+            color: white;
+        }
+        .btn{
+            font-size: 30px;
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid #000;
+
+        }
+        .btn-spc{
+            background-color: tomato;
+            color: white;
+        }
+        .btn:hover{
+            border-radius: 10px;
+            transition: 0.5s;
+            cursor: pointer;
+            box-shadow: 0 0 10px #fff;
+        }
+        .btn-container{
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Calculator</h1>
+
+    <div class="container">
+        <p class="brand">Casio</p>
+        <input type="text" class="cal-screen">
+
+        <div class="btn-container">
+            
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn btn-spc">+</button>
+
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn btn-spc">-</button>
+
+
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn btn-spc">x</button>
+
+
+            <button class="btn btn-spc">.</button>
+            <button class="btn">0</button>
+            <button class="btn btn-spc">=</button>
+            <button class=" btn btn-spc">/</button>
+        </div>
+
+    </div>
+</body>
+</html>
